@@ -1,7 +1,7 @@
 [
   {
     "action": "talk",
-    "loop": 5,
-    "text": "<speak>Hi, I'll wait for 30 secs.<break time='30s' />I'm done. <break time='5s' />Bye</speak>"
+    "loop": 2,
+    "text": "<speak>Hi, I'll wait for 30 secs.<break time='30s' /></speak>"
   }
 ]
