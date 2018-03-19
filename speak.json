@@ -1,6 +1,7 @@
 [
   {
     "action": "talk",
+    "loop": 5,
     "text": "<speak><lang xml:lang='en-GB'>Hi, I'll wait for 30 secs.<break time='30s' />I'm done. <break time='5s' />Bye.</lang> </speak>"
   }
 ]
