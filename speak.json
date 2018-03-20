@@ -2,6 +2,6 @@
   {
     "action": "talk",
     "loop": 99,
-    "text": "<speak>evive testing<break time='30s' strength='strong'/></speak>"
+    "text": "<speak>testing<break time='30s' strength='strong'/></speak>"
   }
 ]
