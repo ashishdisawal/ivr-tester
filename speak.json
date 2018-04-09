@@ -1,7 +1,23 @@
 [
   {
-    "action": "talk",
-    "loop": 0,
-    "text": "<speak>testing<break time='30s' strength='strong'/></speak>"
+    "action":"talk",
+    "text":"Please wait while we connect you"
+  },
+  {
+    "action":"connect",
+    "eventUrl":[
+      "https://5ac7f358.ngrok.io/events"
+    ],
+    "from":"447700900000",
+    "endpoint":[
+      {
+        "type":"websocket",
+        "uri":"ws://5ac7f358.ngrok.io/socket",
+        "content-type":"audio/l16;rate=16000",
+        "headers":{
+          "whatever":"metadata_you_want"
+        }
+      }
+    ]
   }
 ]
