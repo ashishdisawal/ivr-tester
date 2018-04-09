@@ -6,13 +6,13 @@
   {
     "action":"connect",
     "eventUrl":[
-      "https://5ac7f358.ngrok.io/events"
+      "https://31ca33d3.ngrok.io/events"
     ],
     "from":"919108424548",
     "endpoint":[
       {
         "type":"websocket",
-        "uri":"ws://5ac7f358.ngrok.io/socket",
+        "uri":"ws://31ca33d3.ngrok.io/socket",
         "content-type":"audio/l16;rate=16000",
         "headers":{
           "whatever":"metadata_you_want"
