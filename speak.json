@@ -1,12 +1,23 @@
 [
-    {
-        "action": "connect",
-        "eventUrl": ["https://example.com/events"],
-        "endpoint": [
-          {
-            "type": "phone",
-            "number": "447700900001"
-          }
-        ]
-    }
+  {
+    "action":"talk",
+    "text":"Please wait while we connect you"
+  },
+  {
+    "action":"connect",
+    "eventUrl":[
+      "https://31ca33d3.ngrok.io/events"
+    ],
+    "from":"919108424548",
+    "endpoint":[
+      {
+        "type":"websocket",
+        "uri":"ws://31ca33d3.ngrok.io/socket",
+        "content-type":"audio/l16;rate=16000",
+        "headers":{
+          "whatever":"metadata_you_want"
+        }
+      }
+    ]
+  }
 ]
